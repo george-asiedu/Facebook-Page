@@ -29,9 +29,10 @@ body {
 }
 
 .welcome-intro p {
-    width: 400px;
+    width: 500px;
     line-height: 1.5;
     opacity: 0.7;
+    font-size: 23px;
 }
 
 .login-form {
@@ -91,9 +92,8 @@ body {
 }
 
 .login-form .btn2 {
-    position: absolute;
-    width: 60%;
-    left: 5%;
+    width: 50%;
+    margin: 3% 25%;
     padding: 12px 16px;
     background: #08d82b;
     color: #fff;
@@ -102,4 +102,9 @@ body {
     text-transform: capitalize;
     font-size: 16px;
     cursor: pointer;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #bcbdbe;
 }
